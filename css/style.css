@@ -1,0 +1,266 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/*<section-first>*/
+
+.select-box {
+    border: solid 1px black;
+    width: 13em;
+    background-color: #3f3b3b;
+}
+
+.down-line {
+    border-bottom: solid 1px limegreen;
+}
+
+.drop-space {
+    padding-left: 8em;
+}
+
+.option:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.option {
+    color: white;
+}
+
+.drop-list {
+    color: white;
+}
+
+.drop-list:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.drop-ul {
+    list-style: none;
+    height: 10em;
+    overflow: auto;
+    position: absolute;
+    top: 20px;
+    display: none;
+    background-color: pink;
+}
+
+/*.drop-ul {*/
+display: block
+
+;
+}
+
+.drop-cols:hover .drop-ul {
+    display: block;
+}
+
+.drop-list-box {
+    border: 2px solid black;
+    width: 13em;
+}
+
+.under-list {
+    float: right;
+    font-size: 13px;
+    border: 1px solid rebeccapurple;
+    background-color: rebeccapurple;
+}
+
+
+/*<second section>*/
+
+.menu-red {
+    color: #d73e4d;
+    font-size: 13px;
+}
+
+.menu-red:hover {
+    text-decoration: none;
+    color: #d73e4d;
+}
+
+.menu-list {
+    color: white;
+    font-size: 13px;
+    padding-left: 29px;
+}
+
+.menu-list:hover {
+    text-decoration: none;
+    color: #d73e4d;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.cantain-space {
+    position: relative;
+    top: 4em;
+    text-align: center;
+}
+
+.project-btn {
+    border: solid 1px red;
+    padding: 14px 4em;
+    position: relative;
+
+}
+
+.project-btn::after {
+    contain: '';
+    height: 100%;
+    width: 0;
+    background-color: #1e7e34;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.project-btn:hover:after {
+    /*text-decoration: none;*/
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1e7e34;
+    position: absolute;
+    content: '';
+    transition: 1s all;
+}
+
+.small {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    transition: width 2s;
+}
+
+.small:hover {
+    width: 300px;
+}
+
+
+/*<section three>*/
+
+
+.small-line {
+    border-bottom: solid 4px #d73e4d;
+    width: 30px;
+    margin: auto;
+}
+
+.about-para {
+    width: 75%;
+    margin: auto;
+    color: gray;
+    font-size: 16px;
+}
+
+.round1:hover .round{
+    background-color: #d73e4d;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+    border: #d73e4d solid 2px;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    margin: auto;
+    font-size: 36px;
+    padding: 32px;
+}
+.round-para{
+    width: 95%;
+    font-size: 14px;
+    color: gray;
+    line-height: 24px;
+}
+.web{
+    color: black;
+    font-size: 21px;
+}
+.web:hover{
+    text-decoration: none;
+    color:#d73e4d;
+}
+.pencil-web{
+    border: solid 1px #d73e4d;
+    padding: 12px 20px;
+    color: black;
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+.pencil-web:hover{
+    text-decoration: none;
+    background-color:#d73e4d;
+    color: white;
+    transition: 1s all;
+}
+
+
+/*<section four>*/
+
+.cover-box{
+    border: 1px solid #808489;
+}
+.center-contain{
+    position: relative;
+    font-size: 3em;
+    text-align: center;
+    padding: 70px 0;
+}
+.center-contain:hover{
+    animation-name: move;
+    animation-duration: 0.5s;
+    /*position: absolute;*/
+    animation-fill-mode: forwards;
+}
+@keyframes move{
+    from{
+        bottom: 0px;
+    }
+    to{
+        bottom: 120px;
+    }
+
+}
+.one:hover {
+    border: 1px solid red;
+}
+.center-tex{
+    color: #808489;
+}
+.center-tex:hover{
+    text-decoration: none;
+    color: #808489;
+}
+.box-para{
+    width:31%;
+    font-size: 12px;
+    text-align: center;
+    /*overflow: hidden;*/
+    position: relative;
+
+}
+.box-para:hover{
+    animation-name: move2;
+    animation-duration:0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes move2{
+    from{
+        bottom: 0px;
+    }
+    to{
+        bottom: 210px;
+    }
+}
