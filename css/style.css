@@ -162,7 +162,7 @@ display: block
     font-size: 16px;
 }
 
-.round1:hover .round{
+.round1:hover .round {
     background-color: #d73e4d;
     color: white;
 }
@@ -177,21 +177,25 @@ display: block
     font-size: 36px;
     padding: 32px;
 }
-.round-para{
+
+.round-para {
     width: 95%;
     font-size: 14px;
     color: gray;
     line-height: 24px;
 }
-.web{
+
+.web {
     color: black;
     font-size: 21px;
 }
-.web:hover{
+
+.web:hover {
     text-decoration: none;
-    color:#d73e4d;
+    color: #d73e4d;
 }
-.pencil-web{
+
+.pencil-web {
     border: solid 1px #d73e4d;
     padding: 12px 20px;
     color: black;
@@ -199,9 +203,10 @@ display: block
     top: 20px;
     left: 60px;
 }
-.pencil-web:hover{
+
+.pencil-web:hover {
     text-decoration: none;
-    background-color:#d73e4d;
+    background-color: #d73e4d;
     color: white;
     transition: 1s all;
 }
@@ -209,58 +214,138 @@ display: block
 
 /*<section four>*/
 
-.cover-box{
+.cover-box {
     border: 1px solid #808489;
 }
-.center-contain{
+
+.center-contain {
     position: relative;
     font-size: 3em;
     text-align: center;
     padding: 70px 0;
 }
-.center-contain:hover{
+
+.center-contain:hover {
     animation-name: move;
     animation-duration: 0.5s;
     /*position: absolute;*/
     animation-fill-mode: forwards;
 }
-@keyframes move{
-    from{
+
+@keyframes move {
+    from {
         bottom: 0px;
     }
-    to{
-        bottom: 120px;
+    to {
+        bottom: 110px;
     }
 
 }
+
 .one:hover {
     border: 1px solid red;
 }
-.center-tex{
+
+.center-tex {
     color: #808489;
 }
-.center-tex:hover{
+
+.center-tex:hover {
     text-decoration: none;
     color: #808489;
 }
-.box-para{
-    width:31%;
+
+.box-para {
+    width: 31%;
     font-size: 12px;
     text-align: center;
     /*overflow: hidden;*/
     position: relative;
 
 }
-.box-para:hover{
+
+.box-para:hover {
     animation-name: move2;
-    animation-duration:0.5s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
-@keyframes move2{
-    from{
+
+@keyframes move2 {
+    from {
         bottom: 0px;
     }
-    to{
+    to {
         bottom: 210px;
     }
+}
+
+
+/*<section five>*/
+
+.project-list {
+    color: black;
+    border-bottom: #d73e4d solid 1px;
+    padding: 7px;
+    font-size: 17px;
+}
+
+.project-list:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.pro-list {
+    font-size: 16px;
+    padding: 7px;
+    color: black;
+}
+
+.pro-list:hover {
+    text-decoration: none;
+    border-bottom: #d73e4d solid 1px;
+    color: black;
+
+}
+
+.under-contain:hover img {
+    transition: 0.5s;
+    transform: scale(1.3);
+    position: relative;
+}
+
+.under-contain {
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.uper-cantain {
+    height: 92%;
+    width: 93%;
+    background-color: #d73e4d;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.under-contain:hover .uper-cantain {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.border-con {
+    border: white 2px solid;
+    width:92%;
+    height: 90%;
+    position: relative;
+    margin: auto;
+    top: 12px;
+}
+.uper-photo{
+    color: white;
+    position: relative;
+    top: 70px;
+}
+.uper-photo:hover{
+    text-decoration: none;
+    color: white;
 }
