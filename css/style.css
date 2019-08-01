@@ -319,33 +319,272 @@ display: block
 }
 
 .uper-cantain {
-    height: 92%;
+    height: 100%;
     width: 93%;
-    background-color: #d73e4d;
     position: absolute;
     top: 0;
     opacity: 0;
+    background: rgba(215, 67, 77, .8);
 }
-
-.under-contain:hover .uper-cantain {
-    opacity: 1;
-    transition-duration: 0.5s;
-}
-
 .border-con {
     border: white 2px solid;
-    width:92%;
-    height: 90%;
+    width: 88%;
+    height: 85%;
     position: relative;
     margin: auto;
-    top: 12px;
+    top: 19px;
 }
-.uper-photo{
+
+.uper-photo {
     color: white;
     position: relative;
     top: 70px;
 }
-.uper-photo:hover{
+
+.uper-photo:hover {
     text-decoration: none;
     color: white;
 }
+
+
+/*<section six>*/
+
+.bg-img {
+    background-image: url("../image/city.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60%;
+}
+
+.opacity {
+    background: rgba(0, 0, 0, .8);
+    height: 100%;
+}
+
+.img-con {
+    position: relative;
+    top: 8em;
+}
+
+.word {
+    color: #d73e4d;
+}
+
+.img-anc {
+    border: 2px #d73e4d solid;
+    padding: 13px 20px;
+    color: white;
+    position: relative;
+    left: 28em;
+    top: 2em;
+}
+
+.img-anc:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #d73e4d;
+}
+
+@keyframes anc {
+    from {
+        left: 0;
+    }
+    to {
+        left: 80px;
+    }
+
+}
+
+
+/*<section seven>*/
+
+.team-img {
+    width: 350px;
+
+}
+
+.team-con {
+    transition: 0.6s;
+    overflow: hidden;
+}
+
+.team-con:hover img {
+    transition: 0.6s;
+    transform: scale(1.3);
+    position: relative;
+}
+
+.opacity-con {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 15px;
+    bottom: 63px;
+    background: rgba(230, 230, 230, .9);
+    opacity: 0;
+}
+
+.opacity-con:hover {
+    animation-name: team;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+
+}
+
+@keyframes team {
+    from {
+        bottom: 360px;
+    }
+    to {
+        bottom: 70px;
+    }
+
+}
+
+.centar {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    left: 35px;
+}
+
+.team-name {
+    border: solid 1px #d73e4d;
+    text-align: center;
+    padding: 4px 10px;
+    width: 217px;
+    margin-left: 33px;
+}
+
+.team-para {
+    width: 82%;
+}
+
+.face-anc {
+    border: 1px solid #677fb5;
+    border-radius: 50px;
+    padding: 12px 19px;
+    color: #677fb5;
+}
+
+.face-anc:hover {
+    color: white;
+    background-color: #677fb5;
+}
+
+.twi-anc {
+    border: 1px solid #70c2e9;
+    border-radius: 50px;
+    padding: 13px 16px;
+    color: #70c2e9;
+}
+
+.twi-anc:hover {
+    color: white;
+    background-color: #70c2e9;
+}
+
+.pint-icon {
+    border: 1px solid #d8545d;
+    border-radius: 50px;
+    padding: 12px 16px;
+    color: #d8545d;
+}
+
+.pint-icon:hover {
+    color: white;
+    background-color: #d8545d;
+}
+
+.link-icon {
+    border: 1px solid #007ab9;
+    border-radius: 50px;
+    padding: 12px 16px;
+    color: #007ab9;
+}
+
+.link-icon:hover {
+    color: white;
+    background-color: #007ab9;
+}
+
+.tex-icon {
+    padding: 4px 5px;
+    background-color: #e6e6e6;
+}
+
+.all-icon {
+    background-color: #e6e6e6;
+    padding: 5px 24px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+}
+
+.all-icon:hover {
+    animation-name: icon;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+
+@keyframes icon {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 5px;
+    }
+
+}
+
+
+/*<section eight>*/
+.man-img {
+    transition: 0.6s;
+    overflow: hidden;
+}
+.man-img:hover img{
+    transition: 0.6s;
+    transform: scale(1.3);
+    position: relative;
+    opacity: 0.7;
+}
+
+
+
+
+
+/*<section ten>*/
+
+
+.clint-img{
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 35px;
+    margin: auto;
+}
+.clint-para{
+    width: 75%;
+    margin: auto;
+    color:#343434;
+    font-size: 18px;
+}
+.dost{
+    border-radius: 20px;
+    border: solid 1px gray;
+    padding: 6px 6px;
+    width: 10px;
+    display: inline-block;
+    margin-left: 8px;
+}
+.dost:hover{
+    background-color:#d73e4d ;
+    border: solid 1px #d73e4d;
+
+}
+
