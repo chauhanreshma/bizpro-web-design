@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="647" column="32" selection-start-line="647" selection-start-column="32" selection-end-line="647" selection-end-column="32" />
+            <state relative-caret-position="320">
+              <caret line="622" column="65" selection-start-line="622" selection-start-column="65" selection-end-line="622" selection-end-column="65" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
@@ -37,7 +37,7 @@
                 <element signature="n#div#1;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#9;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -47,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="293">
-              <caret line="615" column="29" selection-start-line="615" selection-start-column="29" selection-end-line="615" selection-end-column="29" />
+              <caret line="592" column="13" selection-start-line="592" selection-start-column="13" selection-end-line="592" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -140,12 +140,13 @@
       <workItem from="1564556097123" duration="14429000" />
       <workItem from="1564583140452" duration="3625000" />
       <workItem from="1564638161535" duration="16959000" />
-      <workItem from="1564665257174" duration="9037000" />
+      <workItem from="1564665257174" duration="11112000" />
+      <workItem from="1564726169910" duration="8117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119213000" />
+    <option name="totallyTimeSpent" value="129405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -201,8 +202,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/index.html</url>
-          <line>174</line>
+          <line>176</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.html</url>
+          <line>676</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -217,8 +223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="647" column="32" selection-start-line="647" selection-start-column="32" selection-end-line="647" selection-end-column="32" />
+        <state relative-caret-position="320">
+          <caret line="622" column="65" selection-start-line="622" selection-start-column="65" selection-end-line="622" selection-end-column="65" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
@@ -232,7 +238,7 @@
             <element signature="n#div#1;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#9;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -240,7 +246,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
-          <caret line="615" column="29" selection-start-line="615" selection-start-column="29" selection-end-line="615" selection-end-column="29" />
+          <caret line="592" column="13" selection-start-line="592" selection-start-column="13" selection-end-line="592" selection-end-column="13" />
         </state>
       </provider>
     </entry>
