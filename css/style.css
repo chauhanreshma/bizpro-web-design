@@ -884,7 +884,8 @@ display: block
     width: 100%;
 }
 .name:focus{
-    border: solid 1px black;
+    border: solid 1px #424040;
+    color:gray ;
 }
 .subject {
     outline: none;
@@ -892,14 +893,59 @@ display: block
     border: none;
     border: 1px solid #dfdfdf;
     padding: 14px 15px;
-    width: 100%;
+    width: 97%;
+    margin-left: 16px;
+
 }
 .subject:focus{
-    border: solid 1px black;
+    border: solid 1px #424040;
+    color:gray ;
 }
-.two{
-    width: 100%;
+.message{
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border: 1px solid #dfdfdf;
+    padding: 7em 15px;
+    width: 97%;
+    margin-left: 16px;
 }
+.message:focus{
+    border: solid 1px #424040;
+    color:gray ;
+}
+.foot-btn{
+    padding: 8px 15px;
+    border: 1px solid #d73e4d;
+    background-color: #d73e4d;
+    color: white;
+}
+.foot-btn:hover{
+    background-color: white;
+    color:#d73e4d ;
+}
+.foot-btn:focus{
+    border: solid 1px #d73e4d;
+}
+textarea{
+    height: 200px;
+    width: 97%;
+    padding: 0 15px;
+    border: 1px solid #dfdfdf;
+
+}
+textarea:focus{
+    border: solid 1px #424040;
+    color:gray ;
+}
+.area{
+    margin-left: 17px;
+}
+.area:focus{
+    border: solid 1px #424040;
+    color:gray ;
+}
+
 
 
 /*<section fifteen>*/
