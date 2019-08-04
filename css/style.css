@@ -875,13 +875,29 @@ display: block
 
 /*<section fourteen>*/
 
-.name {
+.name{
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border: 1px solid #dfdfdf;
+    padding: 14px 15px;
     width: 100%;
-    height: 50px;
-    padding-left: 15px;
 }
-
+.name:focus{
+    border: solid 1px black;
+}
 .subject {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border: 1px solid #dfdfdf;
+    padding: 14px 15px;
+    width: 100%;
+}
+.subject:focus{
+    border: solid 1px black;
+}
+.two{
     width: 100%;
 }
 
@@ -895,6 +911,7 @@ display: block
 }
 .foot-bg-color{
     background-color: #1e1e1e;
+    padding-bottom: 30px;
 }
 
 .colorlib:hover {
@@ -919,6 +936,7 @@ display: block
     font-size: 18px;
     text-align: center;
     padding-top: 13px;
+    color:#677fb5 ;
 }
 
 .fot-face:hover {
@@ -938,6 +956,7 @@ display: block
     font-size: 18px;
     text-align: center;
     padding-top: 13px;
+    color: #70c2e9;
 }
 
 .fot-face2:hover {
@@ -957,6 +976,7 @@ display: block
     font-size: 18px;
     text-align: center;
     padding-top: 13px;
+    color: #d73e4d;
 }
 
 .fot-face3:hover {
@@ -976,6 +996,7 @@ display: block
     font-size: 18px;
     text-align: center;
     padding-top: 13px;
+    color: #007ab9;
 }
 
 .fot-face4:hover {
@@ -995,6 +1016,7 @@ display: block
     font-size: 18px;
     text-align: center;
     padding-top: 13px;
+    color: #5ecbf3;
 }
 
 .fot-face5:hover {
@@ -1014,6 +1036,7 @@ display: block
     font-size: 18px;
     text-align: center;
     padding-top: 13px;
+    color: #ff3ba4;
 }
 
 .fot-face6:hover {
@@ -1033,6 +1056,7 @@ display: block
     font-size: 18px;
     text-align: center;
     padding-top: 13px;
+    color: #e299c2;
 }
 
 .fot-face7:hover {
@@ -1052,6 +1076,7 @@ display: block
     font-size: 18px;
     text-align: center;
     padding-top: 13px;
+    color:#faaa5e;
 }
 
 .fot-face8:hover {
