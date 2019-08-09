@@ -44,16 +44,17 @@ html, body {
     z-index: 1;
     color: white;
 }
-.project-btn:hover{
+
+.project-btn:hover {
     text-decoration: none;
     color: white;
 }
 
 .project-btn::after {
-    content:"";
+    content: "";
     height: 100%;
     width: 0;
-    background-color:#d73e4d;
+    background-color: #d73e4d;
     position: absolute;
     top: 0;
     left: 0;
@@ -65,7 +66,7 @@ html, body {
 
 .project-btn:hover:after {
     width: 100%;
-    transition-timing-function: cubic-bezier(.52,1.64,.37,.66);
+    transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
 }
 
 .aro {
@@ -142,11 +143,13 @@ html, body {
     left: 60px;
     z-index: 1;
 }
-.pencil-web:hover{
+
+.pencil-web:hover {
     text-decoration: none;
     color: white;
 }
-.pencil-web::after{
+
+.pencil-web::after {
     position: absolute;
     top: 0;
     left: 0;
@@ -157,9 +160,10 @@ html, body {
     height: 100%;
     z-index: -1;
 }
-.pencil-web:hover::after{
+
+.pencil-web:hover::after {
     width: 100%;
-    transition-timing-function: cubic-bezier(.52,1.64,.37,.66);
+    transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
 
 }
 
@@ -344,28 +348,37 @@ html, body {
 }
 
 .img-anc {
-    border: 2px #d73e4d solid;
-    padding: 13px 20px;
-    color: white;
+    border: solid 1px #d73e4d;
+    padding: 14px 20px;
     position: relative;
-    left: 28em;
+    z-index: 1;
+    color: white;
     top: 2em;
+    left: 27em;
 }
 
 .img-anc:hover {
     text-decoration: none;
     color: white;
-    background-color: #d73e4d;
 }
 
-@keyframes anc {
-    from {
-        left: 0;
-    }
-    to {
-        left: 80px;
-    }
+.img-anc::after {
+    content: "";
+    height: 100%;
+    width: 0;
+    background-color: #d73e4d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-duration: 0.6s;
+    width: 0;
+    z-index: -1;
+    color: white;
+}
 
+.img-anc:hover::after {
+    width: 100%;
+    transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
 }
 
 
@@ -490,7 +503,7 @@ html, body {
 
 .all-icon {
     background-color: #e6e6e6;
-    padding: 5px 24px;
+    padding: 5px 0;
     position: absolute;
     bottom: 0;
     opacity: 0;
@@ -643,8 +656,22 @@ html, body {
 
 .buy-box {
     border: solid 1px #dfdfdf;
+    position: relative;
+    z-index: 1;
+
 }
 
+.buy-box::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 90%;
+    height: 10px;
+    z-index: -1;
+}
+.buy-box:hover::after{
+
+}
 .month-list {
     border: solid 2px #d6973d;
     padding: 23px 0px;
@@ -661,25 +688,6 @@ html, body {
     border: solid 2px #179680;
     padding: 23px 0px;
     background-color: #179680;
-}
-
-.shadow {
-    position: relative;
-}
-
-.shadow:hover {
-    animation-name: shado;
-    animation-duration: 0.3s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes shado {
-    from {
-        bottom: 0;
-    }
-    to {
-        bottom: 8px;
-    }
 }
 
 .list-con {
