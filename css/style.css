@@ -669,8 +669,9 @@ html, body {
     height: 10px;
     z-index: -1;
 }
-.buy-box:hover::after{
-
+/*.buy-box:hover::after{*/
+    width: 90%;
+    box-shadow: 0px 5px gray;
 }
 .month-list {
     border: solid 2px #d6973d;
