@@ -7,26 +7,16 @@ html, body {
 /*<second section>*/
 
 .menu-red {
-    color: #d73e4d;
-    font-size: 13px;
-}
+    color: #d73e4d !important;
+    font-size: 15px;
 
-.menu-red:hover {
-    text-decoration: none;
-    color: #d73e4d;
 }
-
-.menu-list {
-    color: white;
-    font-size: 13px;
-    padding-left: 29px;
+.menu{
+    font-size: 14px !important;
 }
-
-.menu-list:hover {
-    text-decoration: none;
-    color: #d73e4d;
+.menu:hover {
+    color: #d73e4d !important;
 }
-
 .title {
     font-size: 3em;
 }
