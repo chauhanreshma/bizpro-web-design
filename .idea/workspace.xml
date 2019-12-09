@@ -22,11 +22,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="171" column="69" selection-start-line="171" selection-start-column="69" selection-end-line="171" selection-end-column="69" />
+            <state relative-caret-position="185">
+              <caret line="984" column="10" lean-forward="true" selection-start-line="442" selection-end-line="984" selection-end-column="10" />
               <folding>
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#nine#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#nine#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#nine#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#nine#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#4;n#nine#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -38,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="187" column="20" lean-forward="true" selection-start-line="187" selection-start-column="20" selection-end-line="187" selection-end-column="20" />
+            <state relative-caret-position="158">
+              <caret line="368" column="17" selection-start-line="368" selection-start-column="17" selection-end-line="368" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -60,6 +61,14 @@
       <find>center-co</find>
       <find>all i</find>
       <find>menu</find>
+      <find>small-line</find>
+      <find>box-para</find>
+      <find>one</find>
+      <find>icon</find>
+      <find>center-contain</find>
+      <find>cover-box</find>
+      <find>.cantain-space</find>
+      <find>opacity</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -76,18 +85,21 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5" />
-    <option name="y" value="6" />
-    <option name="width" value="1378" />
-    <option name="height" value="733" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -174,18 +186,39 @@
       <workItem from="1568106838780" duration="1395000" />
       <workItem from="1568108350080" duration="596000" />
       <workItem from="1568180133605" duration="1947000" />
-      <workItem from="1568263764772" duration="974000" />
+      <workItem from="1568263764772" duration="1596000" />
+      <workItem from="1568609124411" duration="1475000" />
+      <workItem from="1568610736907" duration="1637000" />
+      <workItem from="1568612867610" duration="960000" />
+      <workItem from="1568623930112" duration="174000" />
+      <workItem from="1574847144336" duration="146000" />
+      <workItem from="1574847340809" duration="844000" />
+      <workItem from="1575262781306" duration="1129000" />
+      <workItem from="1575263961708" duration="927000" />
+      <workItem from="1575265771654" duration="994000" />
+      <workItem from="1575267586618" duration="595000" />
+      <workItem from="1575269490142" duration="7000" />
+      <workItem from="1575453451332" duration="39000" />
+      <workItem from="1575710667076" duration="1509000" />
+      <workItem from="1575874411628" duration="1708000" />
+      <workItem from="1575876372688" duration="1758000" />
+      <workItem from="1575878185244" duration="1783000" />
+      <workItem from="1575879999196" duration="1781000" />
+      <workItem from="1575881816627" duration="1784000" />
+      <workItem from="1575883636788" duration="1826000" />
+      <workItem from="1575885521912" duration="1779000" />
+      <workItem from="1575887344721" duration="1219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217027000" />
+    <option name="totallyTimeSpent" value="241723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13086233" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1323752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -240,18 +273,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="187" column="20" lean-forward="true" selection-start-line="187" selection-start-column="20" selection-end-line="187" selection-end-column="20" />
+        <state relative-caret-position="158">
+          <caret line="368" column="17" selection-start-line="368" selection-start-column="17" selection-end-line="368" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="171" column="69" selection-start-line="171" selection-start-column="69" selection-end-line="171" selection-end-column="69" />
+        <state relative-caret-position="185">
+          <caret line="984" column="10" lean-forward="true" selection-start-line="442" selection-end-line="984" selection-end-column="10" />
           <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#nine#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#nine#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#nine#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#nine#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#4;n#nine#0;n#body#0;n#html#0;n#!!top" expanded="true" />
